@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="http://jekyllrb.com" version="3.4.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" hreflang="en" /><updated>2017-03-26T20:24:43+03:00</updated><id>http://localhost:4000/</id><title type="html">Reinards</title><subtitle>See my amazing portfolio. It might not have that much content for now, but it will change.
+</subtitle><entry><title type="html">Welcome to my blog!</title><link href="http://localhost:4000/jekyll/introduction/2017/03/26/first-post.html" rel="alternate" type="text/html" title="Welcome to my blog!" /><published>2017-03-26T00:00:00+02:00</published><updated>2017-03-26T00:00:00+02:00</updated><id>http://localhost:4000/jekyll/introduction/2017/03/26/first-post</id><content type="html" xml:base="http://localhost:4000/jekyll/introduction/2017/03/26/first-post.html">&lt;p&gt;Welcome!&lt;/p&gt;
+
+&lt;p&gt;So, I am 17 years old boy from Latvia. I have been interested in programming since 2012.&lt;br /&gt;
+My friend Niks, was already learning programming for one year when he tried to convince me to try it too.
+I started with competitive programming - the only thing I was/am taught by that teacher.&lt;/p&gt;
+
+&lt;p&gt;I have always been interested in learning things that are useful in the real life. I cannot remember when it happened, but the same friend who interested me in competitive programming taught me a little bit of html and css.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;I can still remember that green website which used Javascript to toggle a div :D&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;That spark started a fire in me. From then, more or less, I have been learning html, css, javascript and many other programming things.&lt;br /&gt;
+Each year there was a programmers camp in which we were taught different technologies. PHP was a very cool one.
+After that one camp I had an intention to make a world-changing website… like Facebook.&lt;br /&gt;
+Of course, I didn’t make anything big. &lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;For the last one year I have been interested even more.&lt;br /&gt;
+I have learned to use SASS (It is so much easier to write css now).&lt;br /&gt;
+I have learned to make simple websites with Django and Jekyll (This website is powered by Jekyll :P)&lt;br /&gt;
+I have discovered many awesome frameworks and libraries.&lt;br /&gt;
+I have learned a bunch of stuff. &lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;I made this website because I feel the need for a place where I can express my thoughts and show off my work.&lt;br /&gt;
+In a nutshell, I will make a post whenever I have something cool to say to you. &lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;In future, I am planning to develop a website + mobile app (Secret). I also have some ideas for desktop games that I could make.&lt;br /&gt;
+&lt;strong&gt;&lt;em&gt;So, stay tuned and have a nice day!&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">Welcome!</summary></entry></feed>
