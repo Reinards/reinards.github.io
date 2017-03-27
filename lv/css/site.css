@@ -299,4 +299,24 @@ a {
 @media screen and (max-width: 550px) {
   .navbar ul .right {
     visibility: hidden;
-    display: none; } }
+    display: none; }
+
+  .home-head h1 {
+    font-size: 4em; }
+
+  .hidemob {
+    margin: 0;
+    padding: 0;
+    width: 100%; }
+
+  .post {
+    font-size: 1.0em;
+    margin: 20px 0px;
+    border-radius: 0px; }
+    .post .title small {
+      font-size: 0.5em; }
+    .post .intro {
+      font-size: 1.2em; }
+
+  .postmob {
+    margin: 0px; } }
