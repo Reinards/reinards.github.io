@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Patua+On|Open+Sans|Roboto");
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,700|Roboto:400,700");
 body {
   padding: 0;
   margin: 0;
@@ -177,7 +177,8 @@ a {
         -moz-transition: 0.4s;
         -o-transition: 0.4s; }
         .navbar ul a li:hover {
-          color: white; }
+          color: white;
+          background-color: rgba(0, 0, 0, 0.3); }
     .navbar ul .right {
       float: right;
       cursor: pointer; }
