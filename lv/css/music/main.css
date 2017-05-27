@@ -39,31 +39,44 @@ h1 {
       font-weight: bold;
       font-family: "Open Sans";
       font-style: italic; }
-    #song-box .song .btn-play {
-      cursor: pointer;
-      color: #62C955;
-      padding-right: 5px; }
-      #song-box .song .btn-play:hover {
-        color: #3f9f33; }
-    #song-box .song .btn-stop {
-      cursor: pointer;
-      color: #C95555;
-      padding-right: 5px; }
-      #song-box .song .btn-stop:hover {
-        color: #9f3333; }
-    #song-box .song .btn-download {
-      cursor: pointer;
-      color: #4D8BDB; }
-      #song-box .song .btn-download:hover {
-        color: #2565b7; }
-    #song-box .song .inactive {
-      cursor: not-allowed;
-      color: lightgray; }
-      #song-box .song .inactive:hover {
-        color: lightgray; }
 
 .cont {
   padding: 10px; }
+
+.songs-table {
+  width: 100%;
+  padding: 0px;
+  margin: 0px; }
+  .songs-table .btn-play {
+    cursor: pointer;
+    color: #62C955;
+    padding-right: 5px; }
+    .songs-table .btn-play:hover {
+      color: #3f9f33; }
+  .songs-table .btn-stop {
+    cursor: pointer;
+    color: #C95555;
+    padding-right: 5px; }
+    .songs-table .btn-stop:hover {
+      color: #9f3333; }
+  .songs-table .btn-download {
+    cursor: pointer;
+    color: #4D8BDB; }
+    .songs-table .btn-download:hover {
+      color: #2565b7; }
+  .songs-table .inactive {
+    cursor: not-allowed;
+    color: lightgray; }
+    .songs-table .inactive:hover {
+      color: lightgray; }
+
+.preview {
+  width: 100px !important;
+  height: auto;
+  display: inline-block;
+  float: left;
+  border: 2px solid gray;
+  border-radius: 5px; }
 
 @media screen and (max-width: 550px) {
   #song-box {

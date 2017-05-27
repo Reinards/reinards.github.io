@@ -29,18 +29,47 @@
     <div id="song-box">
         <h4 id="txt">List of songs</h4>
         <div class="cont">
-            <div class="song">
-                 <div class="row">
-                    <div class="ten columns"><p>"I don't give a fuck about it"</p></div>
-                    <div class="two columns">
+            <table class="songs-table">
+                <tr>
+                    <th><img class="preview" src="../img/music/idontgiveafuck.png" alt=""></th>
+                    <th>"I don't give a f**k about it"</th>
+                    <th>
                         <span class="btn-play inactive"><i class="fa fa-play" aria-hidden="true"></i></span>
                         <span class="btn-stop inactive"><i class="fa fa-stop" aria-hidden="true"></i></span>
                         <span class="btn-download inactive"><i class="fa fa-download" aria-hidden="true"></i></span>
-                    </div>
-                </div>
-            </div>
+                    </th>
+                </tr>
+                <tr>
+                    <th><img class="preview" src="../img/music/theredflag.png" alt=""></th>
+                    <th>"The red flag"</th>
+                    <th>
+                        <span onclick="playSong(1)" class="btn-play"><i class="fa fa-play" aria-hidden="true"></i></span>
+                        <span onclick="stopSong()" class="btn-stop"><i class="fa fa-stop" aria-hidden="true"></i></span>
+                        <span onclick="downloadSong(1)" class="btn-download"><i class="fa fa-download" aria-hidden="true"></i></span>
+                    </th>
+                </tr>
+            </table>
         </div>
     </div>
+    <iframe id="download_iframe" style="display:none;"></iframe>
+    <script>
+        var songs=["","https://www.dropbox.com/s/dhfot74nlnq4qv5/theredflag.wav?dl=1"]
+        var music_obj;
+
+        function playSong(n){
+            music_obj = new Audio(songs[n]);
+            music_obj.play();
+        }
+
+        function stopSong(){
+            music_obj.pause();
+            music_obj.currentTime=0;
+        }
+
+        function downloadSong(n){
+            document.getElementById('download_iframe').src = songs[n];
+        }
+    </script>
 
 </body>
 
