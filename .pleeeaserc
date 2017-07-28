@@ -1,0 +1,9 @@
+{
+    "in": "css/pre/main.scss",
+    "out": "css/main.css",
+    "sass": true,
+    "autoprefixer": {"browsers": ["last 4 versions", "Android 2.3"]},
+    "rem": true,
+    "opacity": true,
+    "minifier": true
+}
