@@ -1,12 +1,15 @@
 var clicked = true;
 
 function load_page(){
+    setTimeout(function(){
+        
     $(".loader-wrapper").fadeOut(500,function(){
         $(".page-wrapper").fadeIn(1500);
     });
 
     document.getElementById("bgm").play();
     document.getElementById("bgm").volume = 0.3;
+    },1000);
 }
 
 $(document).ready(function(){
