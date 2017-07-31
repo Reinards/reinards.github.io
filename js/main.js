@@ -1,6 +1,11 @@
 var clicked = true;
 
 function load_page(){
+    $('<img/>').attr('src', './img/bg-min-or.png').on('load', function() {
+        $(this).remove(); // prevent memory leaks as @benweet suggested
+        $(".home").css('background-image', 'url("./img/bg-min-or.png")');
+    });
+    
     setTimeout(function(){
         
     $(".loader-wrapper").fadeOut(500,function(){
@@ -15,7 +20,6 @@ function load_page(){
 $(document).ready(function(){
 
      $('<img/>').attr('src', './img/bg-min.png').on('load', function() {
-         console.log(1);
         $(this).remove(); // prevent memory leaks as @benweet suggested
         load_page();
     });
