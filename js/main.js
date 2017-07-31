@@ -14,6 +14,12 @@ function load_page(){
 
 $(document).ready(function(){
 
+     $('<img/>').attr('src', './img/bg-min.png').on('load', function() {
+         console.log(1);
+        $(this).remove(); // prevent memory leaks as @benweet suggested
+        load_page();
+    });
+
     var lang = localStorage.getItem("lang");
 
     if(lang =="en"||lang=="lv"){
