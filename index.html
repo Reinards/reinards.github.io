@@ -1,201 +1,234 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-    <meta charset="utf-8" >
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" >
-    <meta name="description" content="Reinards - A human being with a different perspective on this world." >
-    <meta name="author" content="BudWeb - Reinards Jānis Saulītis" >
-    <meta name="keywords" content="reinards,jānis,saulītis,designer,programmer,dizaineris,programmētājs,mājaslapas,latvija,kjps" >
-    
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    
-    <link rel="stylesheet" href="css/main.css">
-    
-    <link id="favicon" rel="icon" type="image/png" href="img/logo.png">
-    <title>Reinards - Human being</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="I am a person likes to be creative. Check out my portfolio!">
+    <meta name="keywords" content="reinards, front, end, front-end, developer, games, cats, music">
+    <meta name="author" content="Reinards Jānis Saulītis">
+    <meta name="format-detection" content="telephone=no">
+
+    <!-- SOCIAL MEDIA -->
+
+        <!-- <meta property="og:image" content="<?php echo base_url(); ?>assets/img/featured.png" link rel="image_src"/> -->
+        <!-- <meta property="og:image" content="<?php echo base_url(); ?>assets/img/favicon.png" type="image/png"href="<?php echo base_url(); ?>assets/img/favicon.png" /> -->
+        <!-- <meta property="og:description" content="Veģetativās distonijas ārstēšana, veģetatīvā distonija, dziedniecība." /> -->
+        <!-- <meta property="og:url"content="http://www.vdce.lv" /> -->
+        <!-- <meta property="og:title" content="Veģetatīvās distonijas centrs" /> -->
+
+        <!-- <link rel="image_src" href="<?php echo base_url() ?>assets/img/favicon.png" / > -->
+        <!-- <link rel="icon" type="image/png" href="<?php echo base_url(); ?>assets/img/favicon.png" /> -->
+        <link rel="shortcut icon" href="img/favicon.png" />
+
+    <!-- END OF SOCIAL MEDIA -->
+
+    <!-- JQuery -->              <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+
+    <!-- Font Awesome -->        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <!-- Normalize -->           <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css">
+
+    <!-- Flexbox -->             <link href="misc/flexboxgrid.min.css" rel="stylesheet">
+
+    <!-- JQuery scroll -->       <script src="misc/jquery.easeScroll.js"></script>
+    <!-- Scroll reveal -->       <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
+
+    <!-- Main CSS -->            <link href="css/style.css" rel="stylesheet">
+    <!-- Main JS -->             <script src="js/main.js"></script>
+
+
+    <title>Reinards</title>
 </head>
-<body onload="">
+<body>
 
-    <div class="loader-wrapper table wide tall">
-        <div class="cell wide tall">
-            <div class="cssload-wraper">
-                <div class="cssload-dots"></div>
+    <img src="img/portrait.jpg" alt="My portrait" class="portrait portrait--loading">
+
+    <section class="section section--tall section--centered section__home">
+        <div class="wrapper">
+            <img src="img/logo.svg" alt="reinards" data-aos="fade-in">
+        </div>
+    </section>
+
+
+
+
+    <section class="section section--tall section--centered section__work section--light">
+        <div class="wrapper">
+            <h2 class="section__title">Stuff I've been working on</h2>
+
+            <div class="row">
+
+                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4">
+                    <a target="_blank" class="a--reset" href="http://welloutsource.ae/"data-aos="zoom-out">
+                        <div class="item">
+                            <h3 class="item__title">WellOutsource<span class="item__type">A website</span></h3>
+                            <span class="icon"><i class="fa fa-globe"></i></span>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4">
+                    <a target="_blank" class="a--reset" href="http://chalete.lv/">
+                        <div class="item">
+                            <h3 class="item__title">Chalete<span class="item__type">A website</span></h3>
+                            <span class="icon"><i class="fa fa-globe"></i></span>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4">
+                    <a target="_blank" class="a--reset" href="http://lmgroup.lv/">
+                        <div class="item">
+                            <h3 class="item__title">LmGroup<span class="item__type">A website</span></h3>
+                            <span class="icon"><i class="fa fa-globe"></i></span>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4">
+                    <a target="_blank" class="a--reset" href="http://www.vdce.lv/">
+                        <div class="item">
+                            <h3 class="item__title">VDC<span class="item__type">A website</span></h3>
+                            <span class="icon"><i class="fa fa-globe"></i></span>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4">
+                    <a target="_blank" class="a--reset" href="https://poigar.github.io">
+                        <div class="item">
+                            <h3 class="item__title">Poigar<span class="item__type">A website</span></h3>
+                            <span class="icon"><i class="fa fa-globe"></i></span>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4">
+                    <a target="_blank" class="a--reset" href="http://www.dansan.lv/">
+                        <div class="item">
+                            <h3 class="item__title">Dansan<span class="item__type">A website</span></h3>
+                            <span class="icon"><i class="fa fa-globe"></i></span>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4">
+                    <a target="_blank" class="a--reset">
+                        <div class="item item--green">
+                            <h3 class="item__title">Squane<span class="item__type">A mobile game</span></h3>
+                            <span class="icon"><i class="fa fa-android"></i></span>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4">
+                    <a target="_blank" class="a--reset">
+                        <div class="item item--green">
+                            <h3 class="item__title">The orbit<span class="item__type">A mobile game</span></h3>
+                            <span class="icon"><i class="fa fa-android"></i></span>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4">
+                    <a target="_blank" class="a--reset" href="https://poigar.github.io/GatitoWar2/">
+                        <div class="item item--orange">
+                            <h3 class="item__title">Gatito war<span class="item__type">A web game</span></h3>
+                            <span class="icon"><i class="fa fa-html5"></i></span>
+                        </div>
+                    </a>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+
+    <section class="section section__about section--green">
+        <div class="wrapper--dashed">
+            <p>I do freelance work, adore cats, love music, motorcycles and mobile photography.<br>I am fond of learning new technology, participating in projects and once in a while creating something fun.</p>
+        </div>
+    </section>
+
+
+
+
+
+    <section class="section section--tall section--centered section__skills section--light">
+        <div class="wrapper">
+            <h2 class="section__title">Me as a developer</h2>
+
+            <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3 skill">
+                    <h3 class="skills__title">Languages</h3>
+                    <ul>
+                        <li class="skills__item">HTML5</li>
+                        <li class="skills__item">CSS3 (SASS)</li>
+                        <li class="skills__item">JavaScript</li>
+                        <li class="skills__item">PHP</li>
+                    </ul>
+                </div>
+                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3 skill">
+                    <h3 class="skills__title">Methods</h3>
+                    <ul>
+                        <li class="skills__item">BEM</li>
+                        <li class="skills__item">Composer</li>
+                        <li class="skills__item">Gulp</li>
+                        <li class="skills__item">NPM</li>
+                    </ul>
+                </div>
+                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3 skill">
+                    <h3 class="skills__title">Frameworks</h3>
+                    <ul>
+                        <li class="skills__item">Symfony</li>
+                        <li class="skills__item">CodeIgniter</li>
+                        <li class="skills__item">JQuery</li>
+                        <li class="skills__item">Bootstrap</li>
+                    </ul>
+                </div>
+                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3 skill">
+                    <h3 class="skills__title">Other</h3>
+                    <ul>
+                        <li class="skills__item">GIT</li>
+                        <li class="skills__item">Photoshop</li>
+                        <li class="skills__item">Inkscape</li>
+                        <li class="skills__item">Filezilla, XAMPP</li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <footer class="footer section--centered">
+        <div class="wrapper">
+            <span class="section__title txt--light">Let's get in touch!</span>
+            <div class="social-networks-bar">
+                <a target="_blank" href="https://www.facebook.com/profile.php?id=100006352059652" class="network__item">
+                    <i class="fa fa-facebook"></i>
+                </a>
+                <a target="_blank" href="https://www.instagram.com/pupolajshu/" class="network__item">
+                    <i class="fa fa-instagram"></i>
+                </a>
+                <a target="_blank" href="https://www.linkedin.com/in/pupolajshu/" class="network__item">
+                    <i class="fa fa-linkedin"></i>
+                </a>
             </div>
         </div>
-    </div>
+    </footer>
 
-    
-    <div class="page-wrapper">
-        <audio id="bgm" src="musique.mp3"></audio>
+    <script>
+        window.sr = ScrollReveal();
+        sr.reveal('.item', {
+            duration: 1500
+        },100);
+        sr.reveal('.skill', {
+            duration: 1500
+        },100);
+        sr.reveal('.network__item', {
+            duration: 1500
+        },100);
+    </script>
 
-        <div class="player-box">
-            <div class="bar-c">
-                <div id="bar-1" class="bar"></div>
-                <div id="bar-2" class="bar"></div>
-                <div id="bar-3" class="bar"></div>
-                <div id="bar-4" class="bar"></div>
-                <div id="bar-5" class="bar"></div>
-                <div id="bar-6" class="bar"></div>
-            </div>
-        </div>
-        <div class="lang-box">
-            <p class="current lv">LV</p><span>|</span><p class="en">EN</p>
-        </div>
-
-        <div class="home wide tall">
-            <h1>Reinards Jānis Saulītis
-                <small>[Programmētājs, Web dizaineris];</small>
-            </h1>
-        </div>
-
-        <div class="about wide tall">
-            <div class="left-side">
-                <div class="table tall-p">
-                    <div class="cell tall-p">
-                        <h2>Par mani</h2>
-                        <p>Esmu radošs programmētajs un web dizaineris.<br>
-                        Veidoju mājaslapu dizainus, mājaslapas, interaktīvas lietotnes un videospēles.<br><br>
-                        Veicu dažādus projektus un krāju pieredzi, apgūstot jaunas tehnoloģijas, algoritmus un datu struktūras.</p>
-                        <img src="img/pic.jpg" class="mini-pic">
-                    </div>
-                </div>
-            </div>
-            <div class="right-side">
-            </div>
-        </div> 
-
-        <div class="skills wide">
-            <h2>Manas prasmes
-                <small>Ne visas ir parādītas</small>
-            </h2>
-            <div class="container">
-                <div class="skill-item">
-                    <div class="skill-img s10">
-                        <img src="img/web.png" alt="">
-                    </div>
-                </div>
-                <div class="skill-item">
-                    <div class="skill-img s8">
-                        <img src="img/css.png" alt="">
-                    </div>
-                </div>
-                <div class="skill-item">
-                    <div class="skill-img s8">
-                        <img src="img/godot.png" alt="">
-                    </div>
-                </div>
-                <div class="skill-item">
-                    <div class="skill-img s7">
-                        <img src="img/js.png" alt="">
-                    </div>
-                </div>
-                <div class="skill-item">
-                    <div class="skill-img s7">
-                        <img src="img/cpp.png" alt="">
-                    </div>
-                </div>
-                <div class="skill-item">
-                    <div class="skill-img s5">
-                        <img src="img/php.png" alt="">
-                    </div>
-                </div>
-                <div class="skill-item">
-                    <div class="skill-img s3">
-                        <img src="img/nodejs.png" alt="">
-                    </div>
-                </div>
-                <div class="skill-item">
-                    <div class="skill-img s3">
-                        <img src="img/arduino.png" alt="">
-                    </div>
-                </div>
-            </div>
-        </div> 
-
-        <div class="projects wide tall">
-            <h2>Mani projekti
-                <small>Tikai publicētie</small>
-            </h2>
-            <div class="container">
-                <div class="games">
-                    <h3>Spēles/Lietotnes</h3>
-                    <div class="project-item">
-                        <h4>Squane <small><i class="fa fa-android" aria-hidden="true"></i></small></h4>
-                        <a target="_blank" href="https://play.google.com/store/apps/details?id=org.wisdomworkshop.squane&hl=en"><p><i class="fa fa-search" aria-hidden="true"></i></p></a>
-                    </div>
-                    <div class="project-item">
-                        <h4>Gatito War <small>
-                            <i class="fa fa-html5" aria-hidden="true"></i>
-                            <i class="fa fa-laptop" aria-hidden="true"></i>
-                        </small></h4>
-                        <a target="_blank" href="https://wisdomworkshop.github.io/GatitoWar/"><p><i class="fa fa-search" aria-hidden="true"></i></p></a>
-                    </div>
-                    <div class="project-item">
-                        <h4>Games of gravity <small>
-                            <i class="fa fa-html5" aria-hidden="true"></i>
-                        </small></h4>
-                        <a href="http://reinards.github.io/GamesOfGravity/"><p><i class="fa fa-search" aria-hidden="true"></i></p></a>
-                    </div>
-                    <div class="project-item">
-                        <h4>Run run beetle <small>
-                            <i class="fa fa-html5" aria-hidden="true"></i>
-                        </small></h4>
-                        <a target="_blank" href="http://reinards.github.io/RunRunBeetle/"><p><i class="fa fa-search" aria-hidden="true"></i></p></a>
-                    </div>
-                    <div class="project-item">
-                        <h4>The Sim <small>
-                            <i class="fa fa-html5" aria-hidden="true"></i>
-                        </small></h4>
-                        <a target="_blank" href="https://reinards.github.io/TheSim/"><p><i class="fa fa-search" aria-hidden="true"></i></p></a>
-                    </div>
-                </div>
-                <div class="websites">
-                    <h3>Mājaslapas</h3>
-                    <div class="project-item">
-                        <h4>O.Ezertēvs <small><i class="fa fa-globe" aria-hidden="true"></i></small></h4>
-                        <a target="_blank" href="https://temp-olafs.000webhostapp.com/"><p><i class="fa fa-search" aria-hidden="true"></i></p></a>
-                    </div>
-                    <div class="project-item">
-                        <h4>Reinards <small><i class="fa fa-globe" aria-hidden="true"></i></small></h4>
-                        <a target="_blank" href="https://reinards.github.io/"><p><i class="fa fa-search" aria-hidden="true"></i></p></a>
-                    </div>
-                    <div class="project-item">
-                        <h4>BudWeb <small><i class="fa fa-globe" aria-hidden="true"></i></small></h4>
-                        <a target="_blank" href="http://budweb.info/"><p><i class="fa fa-search" aria-hidden="true"></i></p></a>
-                    </div>
-                    <div class="project-item">
-                        <h4>Wisdom Workshop <small><i class="fa fa-globe" aria-hidden="true"></i></small></h4>
-                        <a target="_blank" href="https://wisdomworkshop.github.io/"><p><i class="fa fa-search" aria-hidden="true"></i></p></a>
-                    </div>
-                    <div class="project-item">
-                        <h4>E-card maker <small><i class="fa fa-globe" aria-hidden="true"></i></small></h4>
-                        <a target="_blank" href="http://reinards.github.io/ecard/"><p><i class="fa fa-search" aria-hidden="true"></i></p></a>
-                    </div>
-                </div>
-            </div>
-        </div> 
-
-        <div class="contacts wide">
-            <h2>Sazināsimies? :)</h2>
-
-            <div class="contacts-card">
-                     <div class="links">
-                        <a class="link_gh" href="https://github.com/Reinards" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
-                        <a class="link_fb" href="https://www.facebook.com/profile.php?id=100006352059652" target="_blank"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
-                        <a class="link_go" href="https://plus.google.com/114988241524383955345" target="_blank"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
-                        <a class="link_li" href="https://www.linkedin.com/in/reinards-saulitis-a84870146/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
-                        <a class="link_yo" href="https://www.youtube.com/channel/UCQ2kXRfIjUgQ5dHtHbQfemg" target="_blank"><i class="fa fa-youtube-play" aria-hidden="true"></i></a>
-                    </div> 
-                    <div class="email">
-                         reinardssaulitis@gmail.com
-                    </div>
-                </div>
-        </div>
-
-    </div>
-    
-    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
-    <script src="js/anime.min.js"></script>
-    <script src="js/main.js"></script>
 </body>
 </html>
