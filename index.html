@@ -3,231 +3,129 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="I am a person who says to be creative. Check out my portfolio!">
-    <meta name="keywords" content="reinards, front, end, front-end, developer, games, cats, music">
-    <meta name="author" content="Reinards Jānis Saulītis">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta description="">
+    <meta keywords="">
+    <meta author="">
+    <meta web_author="">
     <meta name="format-detection" content="telephone=no">
+    <!-- <link rel="manifest" href="site.webmanifest"> -->
 
-    <!-- SOCIAL MEDIA -->
-
-        <!-- <meta property="og:image" content="<?php echo base_url(); ?>assets/img/featured.png" link rel="image_src"/> -->
-        <!-- <meta property="og:image" content="<?php echo base_url(); ?>assets/img/favicon.png" type="image/png"href="<?php echo base_url(); ?>assets/img/favicon.png" /> -->
-        <!-- <meta property="og:description" content="Veģetativās distonijas ārstēšana, veģetatīvā distonija, dziedniecība." /> -->
-        <!-- <meta property="og:url"content="http://www.vdce.lv" /> -->
-        <!-- <meta property="og:title" content="Veģetatīvās distonijas centrs" /> -->
-
-        <!--[if IE]><link rel="shortcut icon" href="img/fav.ico"><![endif]-->
-        <link rel="icon" href="img/favicon.png" />
-
-    <!-- END OF SOCIAL MEDIA -->
-
-    <!-- JQuery -->              <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
-
-    <!-- Font Awesome -->        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
-    <!-- Normalize -->           <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css">
-
-    <!-- Flexbox -->             <link href="misc/flexboxgrid.min.css" rel="stylesheet">
-
-    <!-- JQuery scroll -->       <script src="misc/jquery.easeScroll.js"></script>
-    <!-- Scroll reveal -->       <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
-
-    <!-- Main CSS -->            <link href="css/style.css" rel="stylesheet">
-    <!-- Main JS -->             <script src="js/main.js"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:300,400,700|Raleway:300,400,700&amp;subset=latin-ext">
+    <link rel="apple-touch-icon" href="icon.png">
+    <link rel="stylesheet" type="text/css" href="css/entry.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
 
 
-    <title>Reinards</title>
+    <!-- ADD FAVICON -->
+    <!-- ADD SOCIAL MEDIA IMAGES -->
+
+    <title>Reinards | Portfolio</title>
 </head>
 <body>
 
-    <img src="img/portrait.jpg" alt="My portrait" class="portrait portrait--loading">
-
-    <section class="section section--tall section--centered section__home">
-        <div class="wrapper">
-            <img src="img/logo.svg" alt="reinards" data-aos="fade-in">
-        </div>
+    <section class="splash">
+        <img src="img/circle.svg" alt="Circle">
+        <span class="one">1</span>
+        <span class="zero digit--hidden">0</span>
     </section>
-
-
-
-
-    <section class="section section--tall section--centered section__work section--light">
-        <div class="wrapper">
-            <h2 class="section__title">Stuff I've been working on</h2>
-
-            <div class="row">
-
-                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4">
-                    <a target="_blank" class="a--reset" href="http://welloutsource.ae/"data-aos="zoom-out">
-                        <div class="item">
-                            <h3 class="item__title">WellOutsource<span class="item__type">A website</span></h3>
-                            <span class="icon"><i class="fa fa-globe"></i></span>
-                        </div>
-                    </a>
+    
+    <main>
+        <section class="landing-page">
+            <nav class="navbar">
+                <div class="hamburger">
+                    <div class="square"></div>
+                    <span class="line l1"></span>
+                    <span class="line l2"></span>
+                    <span class="line l3"></span>
+                    <span class="line l4"></span>
                 </div>
+                
+                <a href="facebook.com/pupolajshu" target="_blank" title="Add me on Facebook"><img class="facebook share-link" src="img/facebook.svg" alt="Facebook icon"></a>
+                <a href="https://github.com/Reinards" target="_blank" title="I use github too"><img class="github share-link" src="img/github.svg" alt="Github icon"></a>
+                <a href="https://www.linkedin.com/in/pupolajshu/" target="_blank" title="Add me on LinkedIn"><img class="linkedin share-link" src="img/linkedin.svg" alt="Linkedin icon"></a>
+                <a href="https://www.instagram.com/pupolajshu/" target="_blank" title="Follow me on instagram"><img class="instagram share-link" src="img/instagram.svg" alt="Instagram icon"></a>
+    
+                <ul class="navbar-links">
+                    <li class="link js-home">HOME</li>
+                    <li class="link js-about">ABOUT</li>
+                    <li class="link js-work">WORK</li>
+                </ul>
+            </nav>
+        
+            <h1 class="landing-title">
+                REINARDS<br>
+                JĀNIS<br>
+                SAULĪTIS
+            </h1>
+        </section>
 
-                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4">
-                    <a target="_blank" class="a--reset" href="http://chalete.lv/">
-                        <div class="item">
-                            <h3 class="item__title">Chalete<span class="item__type">A website</span></h3>
-                            <span class="icon"><i class="fa fa-globe"></i></span>
-                        </div>
-                    </a>
+        <section id="about" class="about">
+            <div class="wrapper">
+                <div class="img-wrapper">
+                    <img src="img/reinards_cropped.jpg" alt="A picture of Reinards">
                 </div>
-
-                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4">
-                    <a target="_blank" class="a--reset" href="http://lmgroup.lv/">
-                        <div class="item">
-                            <h3 class="item__title">LmGroup<span class="item__type">A website</span></h3>
-                            <span class="icon"><i class="fa fa-globe"></i></span>
-                        </div>
-                    </a>
-                </div>
-
-                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4">
-                    <a target="_blank" class="a--reset" href="http://www.vdce.lv/">
-                        <div class="item">
-                            <h3 class="item__title">VDC<span class="item__type">A website</span></h3>
-                            <span class="icon"><i class="fa fa-globe"></i></span>
-                        </div>
-                    </a>
-                </div>
-
-                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4">
-                    <a target="_blank" class="a--reset" href="https://poigar.github.io">
-                        <div class="item">
-                            <h3 class="item__title">Poigar<span class="item__type">A website</span></h3>
-                            <span class="icon"><i class="fa fa-globe"></i></span>
-                        </div>
-                    </a>
-                </div>
-
-                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4">
-                    <a target="_blank" class="a--reset" href="http://www.dansan.lv/">
-                        <div class="item">
-                            <h3 class="item__title">Dansan<span class="item__type">A website</span></h3>
-                            <span class="icon"><i class="fa fa-globe"></i></span>
-                        </div>
-                    </a>
-                </div>
-
-                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4">
-                    <a target="_blank" class="a--reset">
-                        <div class="item item--green">
-                            <h3 class="item__title">Squane<span class="item__type">A mobile game</span></h3>
-                            <span class="icon"><i class="fa fa-android"></i></span>
-                        </div>
-                    </a>
-                </div>
-
-                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4">
-                    <a target="_blank" class="a--reset">
-                        <div class="item item--green">
-                            <h3 class="item__title">The orbit<span class="item__type">A mobile game</span></h3>
-                            <span class="icon"><i class="fa fa-android"></i></span>
-                        </div>
-                    </a>
-                </div>
-
-                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4">
-                    <a target="_blank" class="a--reset" href="https://poigar.github.io/GatitoWar2/">
-                        <div class="item item--orange">
-                            <h3 class="item__title">Gatito war<span class="item__type">A web game</span></h3>
-                            <span class="icon"><i class="fa fa-html5"></i></span>
-                        </div>
-                    </a>
-                </div>
-
+                <p class="paragraph">
+                    Welcome! My name is Reinards Jānis Saulītis. I am a student at the Druva's Secondary School.
+                    I have been studying programming, especially web development for the past 5 years.
+                    Besides creating websites for different local companies, I have also tried mobile and desktop app development.<br><br>
+                    My technical skills include all the fundemental front-end aspects and languages, PHP for back-end programming with CodeIgniter and a bit of Symfony
+                    and also things like GULP, NPM, GIT and FileZilla.
+                    Art and design are one of my many hobbies, which I practice but do not prioritize over coding.<br><br>
+                    <a target="_blank" href="resume.pdf" title="Link to my resume"><i class="fas fa-link"></i> View my resume </a> for more detailed information!
+                </p>
             </div>
-
-        </div>
-    </section>
-
-
-    <section class="section section__about section--green">
-        <div class="wrapper--dashed">
-            <p>I do freelance work, adore cats, love music, motorcycles and mobile photography.<br>I am fond of learning new technology, participating in projects and once in a while creating something fun.</p>
-        </div>
-    </section>
-
-
-
-
-
-    <section class="section section--tall section--centered section__skills section--light">
-        <div class="wrapper">
-            <h2 class="section__title">Me as a developer</h2>
-
-            <div class="row">
-                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3 skill">
-                    <h3 class="skills__title">Languages</h3>
-                    <ul>
-                        <li class="skills__item">HTML5</li>
-                        <li class="skills__item">CSS3 (SASS)</li>
-                        <li class="skills__item">JavaScript</li>
-                        <li class="skills__item">PHP</li>
-                    </ul>
-                </div>
-                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3 skill">
-                    <h3 class="skills__title">Methods</h3>
-                    <ul>
-                        <li class="skills__item">BEM</li>
-                        <li class="skills__item">Composer</li>
-                        <li class="skills__item">Gulp</li>
-                        <li class="skills__item">NPM</li>
-                    </ul>
-                </div>
-                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3 skill">
-                    <h3 class="skills__title">Frameworks</h3>
-                    <ul>
-                        <li class="skills__item">Symfony</li>
-                        <li class="skills__item">CodeIgniter</li>
-                        <li class="skills__item">JQuery</li>
-                        <li class="skills__item">Bootstrap</li>
-                    </ul>
-                </div>
-                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3 skill">
-                    <h3 class="skills__title">Other</h3>
-                    <ul>
-                        <li class="skills__item">GIT</li>
-                        <li class="skills__item">Photoshop</li>
-                        <li class="skills__item">Inkscape</li>
-                        <li class="skills__item">Filezilla, XAMPP</li>
-                    </ul>
-                </div>
-            </div>
-
-        </div>
-    </section>
-
-    <footer class="footer section--centered">
-        <div class="wrapper">
-            <span class="section__title txt--light">Let's get in touch!</span>
-            <div class="social-networks-bar">
-                <a target="_blank" href="https://www.facebook.com/profile.php?id=100006352059652" class="network__item">
-                    <i class="fa fa-facebook"></i>
+        </section>
+    
+        <section id="work" class="work">
+            <h2>Recent projects</h2>
+            <div class="projects-grid">
+                <a href="http://welloutsource.com" target="_blank" title="WellOutsource" class="project-wrapper">
+                    <img class="overlay--empty" src="img/work/empty_overlay.svg" alt="An empty square">
+                    <img class="screenshot" src="img/work/weout_long.png" alt="A screenshot of welloutsource">
+                    <img class="overlay" src="img/work/weout_overlay.svg" alt="WellOutsource logo">
                 </a>
-                <a target="_blank" href="https://www.instagram.com/pupolajshu/" class="network__item">
-                    <i class="fa fa-instagram"></i>
+                <a href="http://vdce.lv" target="_blank" title="Veģetatīvās Distonijas Centrs" class="project-wrapper">
+                    <img class="overlay--empty" src="img/work/empty_overlay.svg" alt="An empty square">
+                    <img class="screenshot" src="img/work/vdc_long.png" alt="A screenshot of VDC">
+                    <img class="overlay" src="img/work/vdc_overlay.svg" alt="VDC logo">
                 </a>
-                <a target="_blank" href="https://www.linkedin.com/in/pupolajshu/" class="network__item">
-                    <i class="fa fa-linkedin"></i>
+                <a href="http://dansan.lv" target="_blank" title="DanSan" class="project-wrapper">
+                    <img class="overlay--empty" src="img/work/empty_overlay.svg" alt="An empty square">
+                    <img class="screenshot no-fake-scroll" src="img/work/dansan.jpg" alt="A screenshot of DanSan">
+                    <img class="overlay" src="img/work/dansan_overlay.svg" alt="DanSan logo">
                 </a>
-            </div>
+                <!-- <a href="http://lmgroup.lv" target="_blank" title="LmGroup" class="project-wrapper">
+                    <img class="overlay--empty" src="img/work/empty_overlay.svg" alt="An empty square">
+                    <img class="screenshot no-fake-scroll" src="img/work/lmgroup.jpg" alt="A screenshot of LmGroup">
+                    <img class="overlay" src="img/work/lmgroup_overlay.svg" alt="LmGroup logo">
+                </a> -->
+                <!-- <a href="http://dark8.ae" target="_blank" title="Dark8" class="project-wrapper">
+                    <img class="overlay--empty" src="img/work/empty_overlay.svg" alt="An empty square">
+                    <img class="screenshot no-fake-scroll" src="img/work/lmgroup.jpg" alt="A screenshot of LmGroup">
+                    <img class="overlay" src="img/work/dark8_overlay.svg" alt="LmGroup logo">
+                </a> -->
+                <a href="javascript:void(0)" target="_blank" title="LASTRA" class="project-wrapper">
+                    <img class="overlay--empty" src="img/work/empty_overlay.svg" alt="An empty square">
+                    <img class="screenshot no-fake-scroll" src="img/work/lastra.jpg" alt="A screenshot of LmGroup">
+                    <img class="overlay" src="img/work/lastra_overlay.svg" alt="LmGroup logo">
+                </a>
+        </section>
+    </main>
+
+    <footer>
+        <div class="content">
+            <span>Made by Reinards Jānis Saulītis 2019</span>
+            <a href="resume.pdf" target="_blank" title="View my resume">View my resume <i class="fas fa-link"></i></a>
         </div>
+        <button class="return">
+            <i class="fas fa-chevron-up"></i>
+        </button>
     </footer>
 
-    <script>
-        window.sr = ScrollReveal();
-        sr.reveal('.item', {
-            duration: 1500
-        },100);
-        sr.reveal('.skill', {
-            duration: 1500
-        },100);
-        sr.reveal('.network__item', {
-            duration: 1500
-        },100);
-    </script>
 
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="js/main.js"></script>
+    
 </body>
 </html>

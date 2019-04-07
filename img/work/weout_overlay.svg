@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:i="&amp;#38;ns_ai;"
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="250"
+   height="125"
+   viewBox="0 0 66.145831 33.072918"
+   version="1.1"
+   id="svg8"
+   inkscape:version="0.92.3 (2405546, 2018-03-11)"
+   sodipodi:docname="weout_overlay.svg">
+  <defs
+     id="defs2">
+    <clipPath
+       id="clipPath20"
+       clipPathUnits="userSpaceOnUse">
+      <path
+         inkscape:connector-curvature="0"
+         id="path18"
+         d="M 0,170.079 H 198.425 V 0 H 0 Z" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath26">
+      <path
+         d="M 0,209 H 595.28 V 0 H 0 Z"
+         id="path24-7"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath79">
+      <path
+         d="M 0,209 H 595.28 V 0 H 0 Z"
+         id="path77"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="2.8"
+     inkscape:cx="80.526584"
+     inkscape:cy="42.127406"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     units="px"
+     inkscape:window-width="1865"
+     inkscape:window-height="1025"
+     inkscape:window-x="55"
+     inkscape:window-y="27"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-263.92707)">
+    <rect
+       style="opacity:1;fill:#141d24;fill-opacity:1;stroke:none;stroke-width:1.1187892;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect917"
+       width="66.145836"
+       height="33.072918"
+       x="4.4408921e-16"
+       y="263.92709" />
+    <g
+       transform="matrix(0.24845084,0,0,0.24845084,20.467135,31.349431)"
+       id="layer1-6"
+       inkscape:label="Layer 1">
+      <switch
+         transform="matrix(0.5984547,0,0,0.5984547,-17.12723,934.8049)"
+         id="switch4405">
+        <foreignObject
+           requiredExtensions="http://ns.adobe.com/AdobeIllustrator/10.0/"
+           x="0"
+           y="0"
+           width="1"
+           height="1">
+          <i:pgfRef
+             xlink:href="#adobe_illustrator_pgf" />
+        </foreignObject>
+        <g
+           i:extraneous="self"
+           id="g4407">
+          <circle
+             style="fill:#ffffff"
+             class="st0"
+             cx="113.4"
+             cy="113.4"
+             r="78.300003"
+             id="circle4409" />
+          <g
+             id="g4411">
+            <polygon
+               points="69.9,128.9 72.2,128.9 80.5,97.9 77.9,97.9 70.8,124.4 63.7,105.9 62.1,105.9 55,124.4 47.8,97.9 45.2,97.9 53.6,128.9 55.9,128.9 62.9,110.6 "
+               id="polygon4413" />
+            <path
+               inkscape:connector-curvature="0"
+               d="m 119.1,97.5 c -4.4,0 -8.1,1.6 -11.2,4.7 -3.1,3.1 -4.7,6.9 -4.7,11.2 0,4.4 1.6,8.2 4.7,11.3 3.1,3.1 6.9,4.7 11.2,4.7 4.4,0 8.2,-1.6 11.3,-4.7 3.1,-3.1 4.7,-6.9 4.7,-11.3 0,-4.4 -1.6,-8.1 -4.7,-11.2 -3.1,-3.2 -6.9,-4.7 -11.3,-4.7 z m 0,29.2 c -3.7,0 -6.8,-1.3 -9.4,-3.9 -2.6,-2.6 -3.9,-5.8 -3.9,-9.4 0,-3.7 1.3,-6.8 3.9,-9.4 2.6,-2.6 5.8,-3.9 9.4,-3.9 3.7,0 6.8,1.3 9.4,3.9 2.6,2.6 3.9,5.8 3.9,9.4 0,3.7 -1.3,6.8 -3.9,9.4 -2.6,2.6 -5.7,3.9 -9.4,3.9 z"
+               id="path4415" />
+            <path
+               inkscape:connector-curvature="0"
+               d="m 155.9,118.9 c 0,2.1 -0.8,3.9 -2.3,5.4 -1.5,1.5 -3.3,2.3 -5.5,2.3 -2.1,0 -4,-0.8 -5.5,-2.3 -1.5,-1.5 -2.3,-3.3 -2.3,-5.4 v -21 h -2.5 v 21 c 0,2.8 1,5.3 3,7.3 2,2 4.4,3 7.3,3 2.8,0 5.3,-1 7.3,-3 1.7,-1.7 2.7,-3.7 3,-6.1 v 0 -22.2 h -2.5 z"
+               id="path4417" />
+            <polygon
+               points="178.5,100.5 178.5,97.9 160.7,97.9 160.7,100.5 168.3,100.5 168.3,128.9 170.8,128.9 170.8,100.5 "
+               id="polygon4419" />
+            <rect
+               x="84.400002"
+               y="97.900002"
+               width="15.9"
+               height="2.5"
+               id="rect4421" />
+            <rect
+               x="84.400002"
+               y="112.1"
+               width="15.9"
+               height="2.5"
+               id="rect4423" />
+            <rect
+               x="84.400002"
+               y="126.4"
+               width="15.9"
+               height="2.5"
+               id="rect4425" />
+            <rect
+               x="178.5"
+               y="125.9"
+               width="3.0999999"
+               height="3.0999999"
+               id="rect4427" />
+          </g>
+        </g>
+      </switch>
+    </g>
+  </g>
+  <style
+     type="text/css"
+     id="style4403">
+	.st0{fill:#FFFFFF;}
+</style>
+  <style
+     type="text/css"
+     id="style4403-7">
+	.st0{fill:#FFFFFF;}
+</style>
+</svg>
